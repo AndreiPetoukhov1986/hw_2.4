@@ -1,5 +1,8 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+       boolean result = Validator.validate("andrei123", "qwertyuiop.", "qwertyuiop.");
+       if (result){
+           System.out.println("Логин и пароль корректные");
+       }
     }
 }
